@@ -1,0 +1,4 @@
+#Mon Apr 17 07:36:25 GST 2023
+base.0=/Users/gastonbaladi/Projects/flutter-examples/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

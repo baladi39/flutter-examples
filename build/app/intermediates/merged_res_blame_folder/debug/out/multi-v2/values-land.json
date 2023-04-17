@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.syncfusion.flutter_examples.app-mergeDebugResources-9:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "51",
+                        "endLines": "6",
+                        "endColumns": "8",
+                        "endOffsets": "328"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "220"
+                    }
+                }
+            ]
+        }
+    ]
+}

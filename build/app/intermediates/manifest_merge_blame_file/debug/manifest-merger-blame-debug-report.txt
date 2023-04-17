@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.syncfusion.flutter_examples"
+4    android:versionCode="1"
+5    android:versionName="21.1.35" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:3:5-83
+14-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:4:5-97
+15-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:5:5-96
+16-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:5:22-77
+17    <!--
+18 io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:11:5-45:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] /Users/gastonbaladi/.gradle/caches/transforms-3/fbc81b4fe95dda313df21130345af134/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:13:9-43
+28        android:label="Syncfusion Flutter UI Widgets" >
+28-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:12:9-54
+29        <meta-data
+29-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:14:9-16:33
+30            android:name="flutterEmbedding"
+30-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:15:13-44
+31            android:value="2" />
+31-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:16:13-30
+32
+33        <provider
+34            android:name="androidx.core.content.FileProvider"
+35            android:authorities="com.syncfusion.flutter_examples.fileProvider"
+36            android:grantUriPermissions="true" >
+37            <meta-data
+38                android:name="android.support.FILE_PROVIDER_PATHS"
+39                android:resource="@xml/provider_path" />
+40        </provider>
+41
+42        <activity
+42-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:25:9-44:20
+43            android:name="com.syncfusion.flutter_examples.MainActivity"
+43-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:26:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:30:13-144
+45            android:exported="true"
+45-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:27:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:31:13-47
+47            android:launchMode="singleTop"
+47-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:28:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:29:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:32:13-55
+50
+51            <!--
+52                 This keeps the window background of the activity showing
+53                 until Flutter renders its first frame. It can be removed if
+54                 there is no splash screen (such as the default splash screen
+55                 defined in @style/LaunchTheme).
+56            -->
+57            <meta-data
+57-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:37:13-39:40
+58                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+58-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:38:17-82
+59                android:value="true" />
+59-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:39:17-37
+60
+61            <intent-filter>
+61-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:40:13-43:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:41:17-68
+62-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:41:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:42:17-76
+64-->/Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/AndroidManifest.xml:42:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[:url_launcher_android] /Users/gastonbaladi/Projects/flutter-examples/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+68            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+68-->[:url_launcher_android] /Users/gastonbaladi/Projects/flutter-examples/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+69            android:exported="false"
+69-->[:url_launcher_android] /Users/gastonbaladi/Projects/flutter-examples/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+70            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+70-->[:url_launcher_android] /Users/gastonbaladi/Projects/flutter-examples/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+78    </application>
+79
+80</manifest>

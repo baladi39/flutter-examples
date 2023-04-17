@@ -1,0 +1,16 @@
+com.syncfusion.flutter_examples.app-jetified-window-1.0.0-beta04-0 /Users/gastonbaladi/.gradle/caches/transforms-3/13e6d416caf1952df30bd25b7277bca7/transformed/jetified-window-1.0.0-beta04/res
+com.syncfusion.flutter_examples.app-jetified-annotation-experimental-1.1.0-1 /Users/gastonbaladi/.gradle/caches/transforms-3/30033caeb59482c6e14dd40871cbe63e/transformed/jetified-annotation-experimental-1.1.0/res
+com.syncfusion.flutter_examples.app-jetified-window-java-1.0.0-beta04-2 /Users/gastonbaladi/.gradle/caches/transforms-3/5a782e80f834abcfe4787d9cabf735e9/transformed/jetified-window-java-1.0.0-beta04/res
+com.syncfusion.flutter_examples.app-core-1.6.0-3 /Users/gastonbaladi/.gradle/caches/transforms-3/fbc81b4fe95dda313df21130345af134/transformed/core-1.6.0/res
+com.syncfusion.flutter_examples.app-debug-4 /Users/gastonbaladi/Projects/flutter-examples/android/app/src/debug/res
+com.syncfusion.flutter_examples.app-main-5 /Users/gastonbaladi/Projects/flutter-examples/android/app/src/main/res
+com.syncfusion.flutter_examples.app-pngs-6 /Users/gastonbaladi/Projects/flutter-examples/build/app/generated/res/pngs/debug
+com.syncfusion.flutter_examples.app-resValues-7 /Users/gastonbaladi/Projects/flutter-examples/build/app/generated/res/resValues/debug
+com.syncfusion.flutter_examples.app-rs-8 /Users/gastonbaladi/Projects/flutter-examples/build/app/generated/res/rs/debug
+com.syncfusion.flutter_examples.app-mergeDebugResources-9 /Users/gastonbaladi/Projects/flutter-examples/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.syncfusion.flutter_examples.app-mergeDebugResources-10 /Users/gastonbaladi/Projects/flutter-examples/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.syncfusion.flutter_examples.app-merged_res-11 /Users/gastonbaladi/Projects/flutter-examples/build/app/intermediates/merged_res/debug
+com.syncfusion.flutter_examples.app-packaged_res-12 /Users/gastonbaladi/Projects/flutter-examples/build/device_info_plus/intermediates/packaged_res/debug
+com.syncfusion.flutter_examples.app-packaged_res-13 /Users/gastonbaladi/Projects/flutter-examples/build/path_provider_android/intermediates/packaged_res/debug
+com.syncfusion.flutter_examples.app-packaged_res-14 /Users/gastonbaladi/Projects/flutter-examples/build/syncfusion_flutter_pdfviewer/intermediates/packaged_res/debug
+com.syncfusion.flutter_examples.app-packaged_res-15 /Users/gastonbaladi/Projects/flutter-examples/build/url_launcher_android/intermediates/packaged_res/debug
